@@ -83,7 +83,7 @@
                 <configuration>
                     <systemPropertyVariables>
                         <userName>14641406</userName>
-                        <password>Berkay1661+</password>
+                        <password>Berkay</password>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/java/testSuites/SingleRun.xml</suiteXmlFile>
