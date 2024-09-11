@@ -14,5 +14,5 @@ Eğer terminal üzerinden projeyi çalıştırmak istiyorsanız, Maven'ın yükl
 
 "mvn clean test"
 
-Bu komut, mevcut tüm test senaryolarını temiz bir yapı ile çalıştıracaktır.
+Bu komut, mevcut tüm test senaryolarını temiz bir yapı ile çalıştıracaktır. ( Pom.xml uzerinden username password bilgilerini girmeyi unutmayin ) 
 
