@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SingleAndroidAllScenarios" parallel="tests" thread-count="1">
+    <test name="AndroidTest">
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="systemPort" value="4723"/>
+        <classes>
+            <class name="runner.singleRunner"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelAndroidTestSuite" parallel="tests" thread-count="2">
+    <test name="AndroidTest1">
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="systemPort" value="4723"/>
+        <classes>
+            <class name="runner.paralelRunner"/>
+        </classes>
+    </test>
+
+    <test name="AndroidTest2">
+        <parameter name="udid" value="emulator-5556"/>
+        <parameter name="systemPort" value="4725"/>
+        <classes>
+            <class name="runner.paralelRunner"/>
+        </classes>
+    </test>
+</suite>

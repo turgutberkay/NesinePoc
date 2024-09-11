@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Report title -->
+    <viewname>Extent Reports</viewname>
+
+    <!-- Theme (standard, dark) -->
+    <theme>dark</theme>
+
+    <!-- Encoding -->
+    <encoding>UTF-8</encoding>
+
+    <!-- Protocol to use (http, https) -->
+    <protocol>https</protocol>
+
+    <!-- Document title -->
+    <documentTitle>Test Automation Report</documentTitle>
+
+    <!-- Report name -->
+    <reportName>My Project Test Report</reportName>
+
+    <!-- Timezone offset -->
+    <timezoneOffset>+3</timezoneOffset>
+
+    <!-- Thumbnails for screenshots -->
+    <thumbnailForScreenshot>true</thumbnailForScreenshot>
+
+    <!-- Display order of the dashboard charts -->
+    <dashboard>
+        <element>Test</element>
+        <element>Tag</element>
+        <element>Exception</element>
+        <element>Author</element>
+    </dashboard>
+</configuration>
